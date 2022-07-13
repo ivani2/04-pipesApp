@@ -98,6 +98,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "dist/pipes-app",
+            "netlifyToken": "",
+            "siteId": ""
+          }
         }
       }
     }
